@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Blog de Pensées Libres</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Le Blog de Pensées Libres</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#posts">Articles</a></li>
+                <li><a href="#debate">Débat</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="welcome-text">
+            <h2>Bienvenue sur Le Blog de Pensées Libres</h2>
+            <p>Découvrez des réflexions sur divers sujets d'actualité, de société, et bien plus encore.</p>
+        </div>
+        <div class="image-banner">
+            <img src="https://source.unsplash.com/1600x500/?nature,thinking" alt="Bannière esthétique">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Ce blog est un espace libre où la créatrice partage ses idées, pensées et réflexions personnelles sur une variété de sujets. Politique, société, culture... Tout est ici pour éveiller votre curiosité et ouvrir des discussions.</p>
+        <div class="about-image">
+            <img src="https://source.unsplash.com/400x300/?books,writing" alt="À propos">
+        </div>
+    </section>
+
+    <section id="posts">
+        <h2>Derniers Articles</h2>
+        <div class="post-card">
+            <h3>Le Pouvoir des Médias</h3>
+            <img src="https://source.unsplash.com/400x300/?media,power" alt="Médias">
+            <p>Une réflexion sur l'influence des médias dans la société moderne et comment ils façonnent notre perception du monde.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+        <div class="post-card">
+            <h3>Les Défis du Changement Climatique</h3>
+            <img src="https://source.unsplash.com/400x300/?climate,change" alt="Changement climatique">
+            <p>Analyse des enjeux environnementaux et les actions nécessaires pour un avenir durable.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+        <div class="post-card">
+            <h3>La Place des Femmes en Politique</h3>
+            <img src="https://source.unsplash.com/400x300/?women,politics" alt="Femmes en politique">
+            <p>Un sujet qui continue de faire débat, avec des perspectives sur l'égalité de genre dans les hautes sphères.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+    </section>
+
+    <section id="debate">
+        <h2>Rubrique Débat</h2>
+        <p>Participez aux discussions sur des sujets brûlants. Posez vos questions, partagez vos idées, ou réagissez aux opinions des autres.</p>
+        <div class="debate-question">
+            <h3>Question du jour : L'avenir de la démocratie numérique ?</h3>
+            <p>Partagez votre opinion sur la manière dont la technologie façonne la démocratie.</p>
+            <textarea id="debate-comment" rows="4" placeholder="Écrivez votre commentaire ici..."></textarea>
+            <button type="submit">Envoyer</button>
+        </div>
+        <div class="comments-section">
+            <h3>Commentaires récents</h3>
+            <p><strong>Utilisateur1:</strong> Je pense que la démocratie numérique peut être une opportunité, mais elle comporte des risques majeurs de manipulation !</p>
+            <p><strong>Utilisateur2:</strong> C'est un sujet complexe, mais la transparence est essentielle pour une démocratie saine.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Envoyez vos réflexions, suggestions ou simplement un message de soutien !</p>
+        <form action="#" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Le Blog de Pensées Libres. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f7f3eb;
+}
+
+header {
+    background-color: #c4b0a4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#welcome-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#welcome-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+#welcome-text p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.image-banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+section {
+    margin: 50px 20px;
+    padding: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.post-card {
+    background-color: #fdf2e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.post-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.post-card a {
+    text-decoration: none;
+    color: #c4b0a4;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#debate {
+    background-color: #ece7df;
+    padding: 30px;
+}
+
+#debate h2, #debate h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+#debate textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#debate button {
+    padding: 10px 20px;
+    background-color: #c4b0a4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comments-section p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #c4b0a4;
+    color: #
